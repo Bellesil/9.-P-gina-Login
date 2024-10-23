@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo geral do footer */
+footer {
+    background-color: rgba(108, 59, 3, 0.692);
+    color: rgba(196, 114, 47, 0.763);
+    padding: 20px 0;
+    font-family: "Josefin Sans", sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex-basis: 23%;
+    margin-bottom: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgba(157, 108, 9, 0.518);
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: rgba(99, 51, 19, 0.708);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: rgb(79, 2, 2);
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(62, 33, 33);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: rgba(143, 67, 5, 0.728);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 70px;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgba(92, 45, 7, 0.84);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4a2b07;
+}
+
+/* Estilo do dropdown */
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    padding: 0;
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 15px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #575757;
+}
+
+/* Exibe o submenu ao passar o mouse sobre o item principal */
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilo do botão de login */
+.login-button {
+    margin-left: auto;
+    padding: 0.5rem 1rem;
+    background-color: #4e2807ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #432102;
+}
+
+/* Estilo do formulário de login */
+.login-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #5b2002b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #d9d9d9;
+}
